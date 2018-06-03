@@ -1,0 +1,14 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+# IDE ignore folders
+.idea/
+build/
+
+# my task
+lib/Task.txt
+
+.flutter-plugins
