@@ -84,12 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
           child: new Center(
             child: new Column(
               children: <Widget>[
-                // [START I want a job message]
+                // [START Text in the middle]
                 new Expanded(
                   child: new Align(
                     alignment: Alignment.center,
                       child: new Text(
-                        "I want a job at Solid Software",
+                        "Text in the middle",
                         textAlign: TextAlign.center,
                         style: new TextStyle(
                           fontSize: 32.0,
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                   ),
                 ),
-                // [END I want a job message]
+                // [END Text in the middle]
 
                 // [START RaisedButtons Widget]
                 new Row(
